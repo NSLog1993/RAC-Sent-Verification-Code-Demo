@@ -1,0 +1,6 @@
+framework module Pods_RAC_______ {
+  umbrella header "Pods-RAC验证码发送练习-umbrella.h"
+
+  export *
+  module * { export * }
+}
