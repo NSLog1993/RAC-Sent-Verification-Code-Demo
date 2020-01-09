@@ -1,8 +1,0 @@
-platform :ios, ‘8.0’
-use_frameworks!
-
-target 'RAC验证码发送练习' do
-
-pod 'ReactiveObjC'
-
-end

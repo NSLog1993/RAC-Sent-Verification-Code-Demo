@@ -1,0 +1,6 @@
+framework module Pods________ {
+  umbrella header "Pods-验证码发送练习-umbrella.h"
+
+  export *
+  module * { export * }
+}

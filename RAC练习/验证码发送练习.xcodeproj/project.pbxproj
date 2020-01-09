@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118F975D4ED5C4888207CCF8 /* Pods________.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E20CD6B69A191AC035BECF1 /* Pods________.framework */; };
+		231FEC2A21B79AEA002C4AF1 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231FEC2B21B79AEA002C4AF1 /* ReactiveObjC.framework */; };
+		238982C221B915CB00366AF0 /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 238982C121B915CB00366AF0 /* LoginViewModel.m */; };
+		238F874121B77A71005B9562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F874021B77A71005B9562 /* AppDelegate.m */; };
+		238F874421B77A71005B9562 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F874321B77A71005B9562 /* ViewController.m */; };
+		238F874721B77A71005B9562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238F874521B77A71005B9562 /* Main.storyboard */; };
+		238F874921B77A71005B9562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 238F874821B77A71005B9562 /* Assets.xcassets */; };
+		238F874C21B77A71005B9562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 238F874A21B77A71005B9562 /* LaunchScreen.storyboard */; };
+		238F874F21B77A71005B9562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 238F874E21B77A71005B9562 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E20CD6B69A191AC035BECF1 /* Pods________.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods________.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		231FEC2B21B79AEA002C4AF1 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		238982C021B915CB00366AF0 /* LoginViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		238982C121B915CB00366AF0 /* LoginViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
+		238F873C21B77A71005B9562 /* 验证码发送练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "验证码发送练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		238F873F21B77A71005B9562 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		238F874021B77A71005B9562 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		238F874221B77A71005B9562 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		238F874321B77A71005B9562 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		238F874621B77A71005B9562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		238F874821B77A71005B9562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		238F874B21B77A71005B9562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		238F874D21B77A71005B9562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238F874E21B77A71005B9562 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		675D6A5564AEFD4D575D6656 /* Pods-验证码发送练习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-验证码发送练习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-验证码发送练习/Pods-验证码发送练习.debug.xcconfig"; sourceTree = "<group>"; };
+		766F2762FBB923BF4F5D5BBF /* Pods-验证码发送练习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-验证码发送练习.release.xcconfig"; path = "Pods/Target Support Files/Pods-验证码发送练习/Pods-验证码发送练习.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		238F873921B77A71005B9562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231FEC2A21B79AEA002C4AF1 /* ReactiveObjC.framework in Frameworks */,
+				118F975D4ED5C4888207CCF8 /* Pods________.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238F873321B77A71005B9562 = {
+			isa = PBXGroup;
+			children = (
+				238F873E21B77A71005B9562 /* 验证码发送练习 */,
+				238F873D21B77A71005B9562 /* Products */,
+				610046C9E47F6E39C339C8F9 /* Pods */,
+				FB8E8F810A621029FF49F1C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		238F873D21B77A71005B9562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				238F873C21B77A71005B9562 /* 验证码发送练习.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		238F873E21B77A71005B9562 /* 验证码发送练习 */ = {
+			isa = PBXGroup;
+			children = (
+				238F873F21B77A71005B9562 /* AppDelegate.h */,
+				238F874021B77A71005B9562 /* AppDelegate.m */,
+				238F874221B77A71005B9562 /* ViewController.h */,
+				238F874321B77A71005B9562 /* ViewController.m */,
+				238F874521B77A71005B9562 /* Main.storyboard */,
+				238F874821B77A71005B9562 /* Assets.xcassets */,
+				238F874A21B77A71005B9562 /* LaunchScreen.storyboard */,
+				238F874D21B77A71005B9562 /* Info.plist */,
+				238F874E21B77A71005B9562 /* main.m */,
+				238982C021B915CB00366AF0 /* LoginViewModel.h */,
+				238982C121B915CB00366AF0 /* LoginViewModel.m */,
+			);
+			path = "验证码发送练习";
+			sourceTree = "<group>";
+		};
+		610046C9E47F6E39C339C8F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				675D6A5564AEFD4D575D6656 /* Pods-验证码发送练习.debug.xcconfig */,
+				766F2762FBB923BF4F5D5BBF /* Pods-验证码发送练习.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FB8E8F810A621029FF49F1C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				231FEC2B21B79AEA002C4AF1 /* ReactiveObjC.framework */,
+				0E20CD6B69A191AC035BECF1 /* Pods________.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		238F873B21B77A71005B9562 /* 验证码发送练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 238F875221B77A71005B9562 /* Build configuration list for PBXNativeTarget "验证码发送练习" */;
+			buildPhases = (
+				A1B56E404162C65E404688DA /* [CP] Check Pods Manifest.lock */,
+				238F873821B77A71005B9562 /* Sources */,
+				238F873921B77A71005B9562 /* Frameworks */,
+				238F873A21B77A71005B9562 /* Resources */,
+				9C285AB9B4B1FF64426B6FD0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "验证码发送练习";
+			productName = "验证码发送练习";
+			productReference = 238F873C21B77A71005B9562 /* 验证码发送练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		238F873421B77A71005B9562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fanbailiStudy;
+				TargetAttributes = {
+					238F873B21B77A71005B9562 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 238F873721B77A71005B9562 /* Build configuration list for PBXProject "验证码发送练习" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 238F873321B77A71005B9562;
+			productRefGroup = 238F873D21B77A71005B9562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				238F873B21B77A71005B9562 /* 验证码发送练习 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		238F873A21B77A71005B9562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238F874C21B77A71005B9562 /* LaunchScreen.storyboard in Resources */,
+				238F874921B77A71005B9562 /* Assets.xcassets in Resources */,
+				238F874721B77A71005B9562 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C285AB9B4B1FF64426B6FD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-验证码发送练习/Pods-验证码发送练习-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-验证码发送练习/Pods-验证码发送练习-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B56E404162C65E404688DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-验证码发送练习-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		238F873821B77A71005B9562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				238982C221B915CB00366AF0 /* LoginViewModel.m in Sources */,
+				238F874421B77A71005B9562 /* ViewController.m in Sources */,
+				238F874F21B77A71005B9562 /* main.m in Sources */,
+				238F874121B77A71005B9562 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		238F874521B77A71005B9562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238F874621B77A71005B9562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		238F874A21B77A71005B9562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				238F874B21B77A71005B9562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		238F875021B77A71005B9562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		238F875121B77A71005B9562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		238F875321B77A71005B9562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 675D6A5564AEFD4D575D6656 /* Pods-验证码发送练习.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC376MY52H;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "验证码发送练习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecustom.push.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Debug;
+		};
+		238F875421B77A71005B9562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 766F2762FBB923BF4F5D5BBF /* Pods-验证码发送练习.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AC376MY52H;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "验证码发送练习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thecustom.push.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		238F873721B77A71005B9562 /* Build configuration list for PBXProject "验证码发送练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238F875021B77A71005B9562 /* Debug */,
+				238F875121B77A71005B9562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		238F875221B77A71005B9562 /* Build configuration list for PBXNativeTarget "验证码发送练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				238F875321B77A71005B9562 /* Debug */,
+				238F875421B77A71005B9562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 238F873421B77A71005B9562 /* Project object */;
+}
